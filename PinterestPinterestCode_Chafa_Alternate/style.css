@@ -1,0 +1,97 @@
+.topbar{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+.GridPHE{
+    display: grid;
+    grid-template: 60px / 40px 95px 67px 80px;
+    grid-template-areas: "img P H E";
+    justify-items: center;
+    align-items: center;
+}
+.pinticon{
+    grid-area: img;
+    width: 60%;
+}
+#TitleP{
+    color: #cc0000;
+    font-size: 20px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+    justify-self: start;
+}
+#hoyB{
+    color: #111111;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" ;
+    justify-self: start;
+}
+#ExpB{
+    color: #111111;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" ;
+    justify-self: start;
+}
+.divgrid{
+    display:grid;
+    grid-template: 45px /40px 1200px 40px;
+    grid-template-areas: "lup place X";
+    border:solid 2px rgb(194, 193, 193);
+    border-radius: 30px;
+    align-items: center;
+}
+.equisB{
+    grid-area: X;
+    justify-self: center;
+    align-self: center;
+}
+.search_bar{
+    width:100%;
+    border:solid 1px transparent;
+    align-self: center;
+    color:rgb(211, 211, 211);
+    font-size: 16px;
+    font-weight: 600;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" ;
+}
+.lupaB{
+    grid-area: lup;
+    justify-self: center;
+    align-self: center;
+}
+.IniBox{
+    margin-left: 8px;
+}
+#IniB{
+    font-size: 16px;
+    font-weight: 600;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" ;
+    color: #111111;
+    background-color: #efefef;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ResBox{
+   margin-left: 8px;
+}
+#ResB{
+    color: white;
+    background-color:#e60023;
+    font-weight: 600;
+    font-size: 16px;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" ;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#rowD{
+    padding-left: 8px;
+}
